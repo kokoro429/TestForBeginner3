@@ -32,8 +32,6 @@ public class Main {
     String phoneNumberRegex = "^\\d{3}-\\d{4}-\\d{4}$";
     Pattern pattern = Pattern.compile(phoneNumberRegex);
 
-    boolean judge = false;
-
     System.out.println("携帯電話番号を入力してください(例：xxx-xxxx-xxxx):");
     String phoneNumber = scanner.nextLine();
 
