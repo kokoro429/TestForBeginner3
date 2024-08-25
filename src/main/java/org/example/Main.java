@@ -24,7 +24,6 @@ public class Main {
 
 期待される出力例:
     08012345678 は無効な携帯電話番号です。
-
      */
 
     Scanner scanner = new Scanner(System.in);
