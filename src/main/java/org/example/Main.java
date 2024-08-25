@@ -24,7 +24,6 @@ public class Main {
 
 期待される出力例:
     08012345678 は無効な携帯電話番号です。
-
      */
 
     Scanner scanner = new Scanner(System.in);
@@ -32,8 +31,6 @@ public class Main {
     //正規表現パターン
     String phoneNumberRegex = "^\\d{3}-\\d{4}-\\d{4}$";
     Pattern pattern = Pattern.compile(phoneNumberRegex);
-
-    boolean judge = false;
 
     System.out.println("携帯電話番号を入力してください(例：xxx-xxxx-xxxx):");
     String phoneNumber = scanner.nextLine();
